@@ -1,0 +1,91 @@
+--------------------------------HTML---------------------------------------
+HTML:Hypertext Markup Language.
+=> It's a language used to create structure of the website(skeleton).
+-------------------------
+HTML structure is made of  parts:
+
+-Head:to link other files/to use favicon/website title....
+-Body:the responsible part to create the client display(affichage de données.).
+------------------------
+HTLM is based on tags:
+
+*Paired tags: <TagName>conten</TagName
+=> p,h1...h6,div...,lists tags...
+
+ *Paired tags: <TagName    src"content"/>
+=> img,br,hr,vidéo,iframe...
+
+
+*Heading tags: Les titres=><h1>titre</h1>
+                          <h2>titre</h2>
+                          <h3>titre</h3>
+                          <h4>titre</h4>
+                          <h5>titre</h5>
+                          <h6>titre</h6>
+
+*Paragraph:
+        <p>Type your paragraph</p>
+*Lists:
+   .Orders Lists:
+=> <ol Type"A/I/1...>(Parent)
+    <li>child1</li>
+    <li>child2</li>
+   </ol>
+
+.Unorders Lists:
+=> <ul>(Parent)
+    <li>child1</li>
+    <li>child2</li>
+   </ul>
+
+.Description Lists:
+=> <dr>
+    <dt>title</dt>
+    <dt>Description related to the title</dt>
+   </dr>
+
+.Hypertext link:
+<a href"lien">Go to Home page</a>
+
+
+
+
+*Sementic tags:
+will facilitate the css work(design)
+tag used to organise the structure: (Creating blocks).
+
+we can struture the body in 3 parts:
+-Header:
+      <header>
+      </header>
+-Main:
+      <main>
+      </main>
+-Footer:
+      <Footer>
+      </Footer>
+
+.<div></div>:Division:Block
+.<nav></nav>:navigation bar
+.<form></form>:Block pour formulaires.
+.<section></section>:code section...
+
+
+-Tables:
+<table border="1"> : Déclaration de tableau.
+<tr>              :Table Row.
+    <th>Name</th> :Table Heading(titre).
+    <th>Course</th>
+    <th>Time</th>
+</tr>
+<tr>
+    <td>Methe Davy</td> :Table Description.
+    <td>Fullstack Js</td>
+    <td>Methe Davy</td>
+</tr>
+<tr>
+    <td>Emegue Kylian</td>
+    <td>Fullstack Js</td>
+    <td>Methe Davy</td>
+</tr>
+</table>
